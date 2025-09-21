@@ -45,8 +45,8 @@ export default function Projects() {
 
     return(
         <div id="projects" className="projects-section">
-            <div className="section-header">Where I've built </div>
-                <div ref={ref} className={`project-tile ${inView ? "slide-in-left": ""}`} >
+            <div ref={ref} className="section-header">Where I've built </div>
+                <div className={`project-tile ${inView ? "slide-in-left": ""}`} >
                     <div>GetDelivered</div>
                     <div className="project-content">
                       <div>
