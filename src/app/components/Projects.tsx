@@ -15,8 +15,8 @@ import project3_img3 from '../assets/rpms/image3.png'
 import SlidingCarousel from './SlidingCarousel';
 function useInView(
   options = { threshold: 0.1, triggerOnce: true }
-): [ref: React.RefObject<HTMLElement | null>, inView: boolean] {
-  const ref = useRef<HTMLElement | null>(null);
+): [ref: React.RefObject<HTMLDivElement | null>, inView: boolean] {
+  const ref = useRef<HTMLDivElement | null>(null);
   const [inView, setInView] = useState(false);
 
   useEffect(() => {
