@@ -296,12 +296,12 @@ html {
 
 /* Animation classes */
 .slide-in-left {
-  animation: slideInLeft 3s ease forwards;
+  animation: slideInLeft 1s ease forwards;
   justify-content: flex-start;
 }
 
 .slide-in-right {
-  animation: slideInRight 3s ease forwards;
+  animation: slideInRight 1s ease forwards;
   justify-content: flex-end;
 }
 
