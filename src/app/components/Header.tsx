@@ -47,7 +47,7 @@ const Header = () => {
           <a className="header-mob" href="#about">About</a>
           <a className="header-mob"  href="#experience">Experience</a>
           <a className="header-mob" href="#projects">Projects</a>
-          <a href="/resume-job.pdf"  download="Elwin-Resume.pdf" className="transparent-button transparent-button-active">Résumé</a>
+          <a href="/resume.pdf"  download="Elwin-Resume.pdf" className="transparent-button transparent-button-active">Résumé</a>
         </nav>
       </div>
     </header>
